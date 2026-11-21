@@ -34,7 +34,7 @@ Practice suites against public demo sites:
 - **Risk-based testing.** Owned my team's test plan for a money-transfer app on Android, iOS, USSD and WhatsApp, and decided what to test first by asking what would hurt someone sending money home if it broke.
 - **Mentoring.** Junior testers and interns in every role, functional testers learning performance work, and tech talks for other testers.
 
-ISTQB Advanced Level Technical Test Analyst (CTAL-TTA) and Foundation Level (CTFL). Before software, an honours degree in microbiology: lab work runs on the same habits as testing. Change one thing, measure what happens, and write it down.
+ISTQB Advanced Level Technical Test Analyst (CTAL-TTA) and Foundation Level (CTFL). Before software, an honours degree in microbiology: lab work runs on the same habits as testing. Change one thing, measure what happens, and write it down. I'm also a co-author on three research papers: [how fermentation temperature changes beer's aroma compounds and yeast](https://www.ejbiotechnology.info/index.php/ejbiotechnology/article/view/v14n2-5), and computer screening for compounds that might block two TB enzymes, [gyrase B](https://pubmed.ncbi.nlm.nih.gov/23614896/) and [DprE1](https://www.benthamscience.com/article/62613).
 
 ## Apps for home
 
