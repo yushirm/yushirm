@@ -29,7 +29,7 @@ Practice suites against public demo sites:
 
 ## What I do for a living
 
-- **Performance testing.** Over six years checking that large online gaming platforms could take the load: JMeter load, soak, spike and failover tests, with slowdowns traced through SQL Server, Redis, Couchbase, Kafka and RabbitMQ. The same handful of problems turned up again and again: slow memory leaks, queries and connection pools that gave out under real traffic, logins that buckled when everyone arrived at once, and default settings capping what the servers could handle. Later, performance tests in C# with NBomber that ran alongside the code.
+- **Performance testing.** Over six years checking that large online gaming platforms could take the load: JMeter load, soak, spike and failover tests, with slowdowns traced through SQL Server, Redis, Couchbase, Kafka and RabbitMQ. The problems I found most often were memory leaks, slow queries, connection pools running out under load, logins struggling at peak times, and default settings that limited throughput. Later, performance tests in C# with NBomber that ran alongside the code.
 - **Mobile and API automation.** Java frameworks with Appium, Selenium and Rest Assured, running in CI, for a digital banking platform and an emergency-services platform: Android, iOS, web, APIs, and the data and messaging underneath.
 - **Risk-based testing.** Owned my team's test plan for a money-transfer app on Android, iOS, USSD and WhatsApp, and decided what to test first by asking what would hurt someone sending money home if it broke.
 - **Mentoring.** Junior testers and interns in every role, functional testers learning performance work, and tech talks for other testers.
