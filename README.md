@@ -27,6 +27,9 @@ Practice suites against public demo sites:
 - [Postman API suite](https://github.com/yushirm/Automation-Postman-OpenWeatherApi) for the OpenWeather API, with positive and negative checks (2022)
 - [Playwright Java port](https://github.com/yushirm/automation-playwright-saucedemo) of the Selenium suite, with auto-waiting and GitHub Actions runs, made with Claude Code (2026)
 
+**A bug, start to finish**  
+uNogwaja on a real bug in [Mzansi Tools](https://mzansitools.co.za/home-loan). On a phone, typing a price that was too low swapped the result for a small error card, so the page shrank by about 5 400px and the box and its error message jumped about 1 100px off the screen. An agent fixed it the same day. Retested live nearly two weeks later, after a site redesign, the box stayed put in 19 out of 19 bad entries. The lesson (measure where the box sits on the page, not how far the page has scrolled) is now a step in the playbook for every calculator I test. The same retest found the redesign had hidden a different fix. That one's open.
+
 ## What I do for a living
 
 - **Performance testing.** Over six years checking that large online gaming platforms could take the load: JMeter load, soak, spike and failover tests, with slowdowns traced through SQL Server, Redis, Couchbase, Kafka and RabbitMQ. The problems I found most often were memory leaks, slow queries, connection pools running out under load, logins struggling at peak times, and default settings that limited throughput. Later, performance tests in C# with NBomber that ran alongside the code.
