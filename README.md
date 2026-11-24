@@ -28,7 +28,7 @@ Practice suites against public demo sites:
 - [Playwright Java port](https://github.com/yushirm/automation-playwright-saucedemo) of the Selenium suite, with auto-waiting and GitHub Actions runs, made with Claude Code (2026)
 
 **A bug, start to finish**  
-uNogwaja on a real bug in [Mzansi Tools](https://mzansitools.co.za/home-loan). On a phone, typing a price that was too low swapped the result for a small error card, so the page shrank by about 5 400px and the box and its error message jumped about 1 100px off the screen. An agent fixed it the same day. Retested live nearly two weeks later, after a site redesign, the box stayed put in 19 out of 19 bad entries. The lesson (measure where the box sits on the page, not how far the page has scrolled) is now a step in the playbook for every calculator I test. The same retest found the redesign had hidden a different fix. That one's open.
+Mzansi Tools had a bug that only showed up on phones. Its automated tests didn't catch it, and on a computer it looked fine. uNogwaja used the calculators the way a real person would, made the mistakes people really make, and found that the warning saying what was wrong jumped right off the screen. Someone on a phone would see nothing and think the calculator was broken. It was fixed the same day. Nearly two weeks later, after the whole site had been redesigned, uNogwaja tried 19 mistakes like these on the [live site](https://mzansitools.co.za/home-loan), and the warning stayed in view in all 19. That check is now part of how I test every calculator. The same retest found that the redesign had hidden a different fix. That one's still to do.
 
 ## What I do for a living
 
