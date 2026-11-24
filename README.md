@@ -27,6 +27,9 @@ Practice suites against public demo sites:
 - [Postman API suite](https://github.com/yushirm/Automation-Postman-OpenWeatherApi) for the OpenWeather API, with positive and negative checks (2022)
 - [Playwright Java port](https://github.com/yushirm/automation-playwright-saucedemo) of the Selenium suite, with auto-waiting and GitHub Actions runs, made with Claude Code (2026)
 
+**A bug, start to finish**  
+Mzansi Tools had a bug that only showed up on phones. Its automated tests didn't catch it, and on a computer it looked fine. uNogwaja used the calculators the way a real person would, made the mistakes people really make, and found that the warning saying what was wrong jumped right off the screen. Someone on a phone would see nothing and think the calculator was broken. It was fixed the same day. Nearly two weeks later, after the whole site had been redesigned, uNogwaja tried 19 mistakes like these on the [live site](https://mzansitools.co.za/home-loan), and the warning stayed in view in all 19. That check is now part of how I test every calculator. The same retest found that the redesign had hidden a different fix. That one's still to do.
+
 ## What I do for a living
 
 - **Performance testing.** Over six years checking that large online gaming platforms could take the load: JMeter load, soak, spike and failover tests, with slowdowns traced through SQL Server, Redis, Couchbase, Kafka and RabbitMQ. The problems I found most often were memory leaks, slow queries, connection pools running out under load, logins struggling at peak times, and default settings that limited throughput. Later, performance tests in C# with NBomber that ran alongside the code.
