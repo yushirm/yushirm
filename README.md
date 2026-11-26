@@ -26,6 +26,7 @@ Practice suites against public demo sites:
 - [Selenium framework in C#](https://github.com/yushirm/Automation-Selenium-SauceDemo) with page objects and Given-When-Then tests (2022)
 - [Postman API suite](https://github.com/yushirm/Automation-Postman-OpenWeatherApi) for the OpenWeather API, with positive and negative checks (2022)
 - [Playwright Java port](https://github.com/yushirm/automation-playwright-saucedemo) of the Selenium suite, with auto-waiting and GitHub Actions runs, made with Claude Code (2026)
+- [Bruno port](https://github.com/yushirm/Automation-Bruno-OpenWeatherApi) of the Postman suite, with more checks and GitHub Actions runs, made with Claude Code (2026)
 
 
 ## What I do for a living
