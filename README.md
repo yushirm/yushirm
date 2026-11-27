@@ -19,7 +19,7 @@ A text adventure in the old DOS spirit: a cyberpunk-noir mystery told in ASCII, 
 ## How I test
 
 **uNogwaja** · private, in daily use  
-My testing playbook, written down so I can hand it to an AI agent: what good looks like, how to test a content site, a calculator, a login or a game, and the lessons each session teaches. It runs as a loop: charter, explore, report, retest, learn, heal. When a session teaches the agent something new, it proposes a rule change, and nothing changes until I've read it. Named after the clever hare of isiZulu folklore. [See it on a real bug](https://fernwire.co.za/unogwaja/): a phone-only problem it found in Mzansi Tools, and how it made sure it stays fixed.
+My testing playbook, written down so I can hand it to an AI agent: what good looks like, how to test a content site, a calculator, a login or a game, and the lessons each session teaches. It runs as a loop: charter, explore, report, retest, learn, heal. When a session teaches the agent something new, it proposes a rule change, and nothing changes until I've read it. Named after the clever hare of isiZulu folklore. [See it on a real bug](https://fernwire.co.za/unogwaja/): a phone-only problem it found in Mzansi Tools, and how it made sure it stays fixed. [Live numbers](https://unogwaja.fernwire.co.za): what it has learned across all its work, updated monthly.
 
 **Test automation samples** · public  
 Practice suites against public demo sites:
